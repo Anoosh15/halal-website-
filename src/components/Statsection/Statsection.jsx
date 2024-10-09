@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "./StatSection.css";
+import "./Statsection.css";
 
 const StatSection = () => {
   const control = useAnimation();
