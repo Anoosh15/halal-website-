@@ -2,19 +2,19 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px; /* Adds space between the cards */
+    gap: 20px; 
     padding: 20px;
 }
 
 .stat-card {
     position: relative;
-    width: 180px;  /* Adjust according to desired width */
-    height: 150px; /* Adjust height */
-    background-color: #f2f2f2; /* Fallback background color */
+    width: 180px;  
+    height: 150px; 
+    background-color: #f2f2f2; 
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for elevation */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .stat-card::before {
@@ -26,7 +26,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    opacity: 0.8; /* Make image slightly transparent */
+    opacity: 0.8; 
 }
 
 .stat-card:nth-child(1)::before {
